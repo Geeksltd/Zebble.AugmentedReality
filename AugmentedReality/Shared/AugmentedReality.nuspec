@@ -3,12 +3,15 @@
   <metadata>
     <id>Zebble.Plugin.AugmentedReality</id>
     <version>1.0.0</version>
-    <title> AugmentedReality component for Zebble</title>
-    <description>...</description>
-    <authors>Your name</authors>
-    <owners>Your name</owners>
+    <title>AugmentedReality plugin for Zebble for Xamarin</title>
+    <description>AugmentedReality plugin for Zebble for Xamarin</description>
+    <authors>Mobile App Technologies Ltd</authors>
+    <!--<owners>Your name</owners>-->
     <!--<licenseUrl>http://your-website.com/Licence.txt</licenseUrl>-->
-    <copyright>Copyright ©2017 | Your company...</copyright>
+	<copyright>Copyright ©2017 Mobile App Technologies Ltd - All rights reserved.</copyright>
+	<dependencies>
+		<dependency id="Zebble" version="4.0.182" />
+	</dependencies>
   </metadata>
   <files>
     <file src="lib\AugmentedReality.iOS.*" target="lib\Xamarin.iOS10\" />
