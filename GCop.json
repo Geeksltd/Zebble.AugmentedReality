@@ -1,6 +1,5 @@
 {
-  "$schema":"http://gcop.watch.masoud.g.e/public/js/gcop-schema.json",
-  "ReadMe": "To learn how to configure this, see: http://gcop.watch.masoud.g.e/documentation/config",
+  "ReadMe": "To learn how to configure this, see:http://gcop.co/doc/config",
   "Projects": [],
   "DomainProjectNames": "",
   "General": [
@@ -40,5 +39,15 @@
       "Path": "*\\TaskManager.cs",
       "Exclude": "*"
     }
-  ]
+  ],
+  "Report": {
+    "Enabled": true,
+    "AnalyzerErrorInterval": 30,
+    "AnalyzerPerformanceInterval": 30,
+    "ProjectInfoInterval": 30
+  },
+  "Logging": {
+    "LogExceptionsToFile": false,
+    "LogExceptionsToOutputWindow": false
+  }
 }

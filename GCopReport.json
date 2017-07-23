@@ -1,0 +1,11 @@
+{
+  "Items": [
+    {
+      "Analyzer": "UnusedMethodsAnalyzer",
+      "OccurrenceCount": 127,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "PAYMON"
+    }
+  ]
+}

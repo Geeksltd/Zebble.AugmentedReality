@@ -10,8 +10,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AugmentedReality.cs" />
-
-    <Content Include="$(MSBuildThisFileDirectory)AugmentedReality.nuspec" />
+    <None Include="$(MSBuildThisFileDirectory)NuGet\NuGet.nuspec" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon.png" />
   </ItemGroup>
-  
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)NuGet\%40CreateNuGet.bat" />
+  </ItemGroup>
 </Project>

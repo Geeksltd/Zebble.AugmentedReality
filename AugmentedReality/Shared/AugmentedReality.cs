@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Zebble.Services;
-using System.Linq;
-using Zebble.Framework;
-
-namespace Zebble.Plugin
+﻿namespace Zebble.Plugin
 {
-   public class AugmentedReality : Canvas
-	{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Framework;
+    using Zebble.Services;
+
+    public class AugmentedReality : Canvas
+    {
         const float FULL_CIRCLE = 360;
         public const float CameraViewFieldDegrees = 40;
         List<PointOfInterest> PointsOfInterest = new List<PointOfInterest>();
@@ -48,7 +48,7 @@ namespace Zebble.Plugin
             if (Math.Abs(CurrentValue - newHeading.SmoothValue) < 1) return;
 
             CurrentValue = newHeading.SmoothValue;
-            Device.UIThread.Invoke(PositionPointsOfInterest);
+            Device.UIThread.RunAction(PositionPointsOfInterest);
         }
 
         async Task Show(PointOfInterest poi)
@@ -61,7 +61,7 @@ namespace Zebble.Plugin
 
         async Task OnShown()
         {
-            PixelsPerDegree = Device.Screen.Width / CameraViewFieldDegrees;
+            PixelsPerDegree = Root.ActualWidth / CameraViewFieldDegrees;
 
             var position = await Device.Location.GetCurrentPosition();
             if (position != null)
