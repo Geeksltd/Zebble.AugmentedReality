@@ -89,11 +89,10 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Zebble.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Zebble.4.0.237\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\packages\Zebble.4.0.239\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Zebble.CameraView.Android">
-      <HintPath>..\..\packages\Zebble.Plugin.CameraView.4.1.215\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
+    <Reference Include="Zebble.CameraView.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Zebble.Plugin.CameraView.4.1.216\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.SmoothCompass.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Zebble.Plugin.SmoothCompass.4.0.144\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>

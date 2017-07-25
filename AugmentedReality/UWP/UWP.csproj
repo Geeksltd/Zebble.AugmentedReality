@@ -114,10 +114,10 @@
       <Version>4.3.0</Version>
     </PackageReference>
     <PackageReference Include="Zebble">
-      <Version>4.0.237</Version>
+      <Version>4.0.239</Version>
     </PackageReference>
     <PackageReference Include="Zebble.Plugin.CameraView">
-      <Version>4.1.215</Version>
+      <Version>4.1.216</Version>
     </PackageReference>
     <PackageReference Include="Zebble.Plugin.SmoothCompass">
       <Version>4.0.144</Version>

@@ -54,12 +54,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Zebble.CameraView.iOS">
-      <HintPath>..\..\packages\Zebble.Plugin.CameraView.4.1.215\lib\Xamarin.iOS10\Zebble.CameraView.iOS.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Zebble.CameraView.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Zebble.Plugin.CameraView.4.1.216\lib\Xamarin.iOS10\Zebble.CameraView.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Zebble.4.0.237\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Zebble.4.0.239\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.SmoothCompass.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Zebble.Plugin.SmoothCompass.4.0.144\lib\Xamarin.iOS10\Zebble.SmoothCompass.iOS.dll</HintPath>
