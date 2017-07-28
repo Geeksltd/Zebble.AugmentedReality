@@ -44,15 +44,15 @@
     <Reference Include="System.Core" />
     <Reference Include="Zebble.Android">
       <HintPath>..\packages\Zebble.4.0.249\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Zebble.CameraView.Android">
       <HintPath>..\packages\Zebble.Plugin.CameraView.4.1.224\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Zebble.SmoothCompass.Android">
       <HintPath>..\packages\Zebble.Plugin.SmoothCompass.4.0.153\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -77,5 +77,5 @@
     <Error Condition="!Exists('..\Shared\Shared.projitems')" Text="This project references Shared that are missing on this computer." />
   </Target>
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets')" />
-   <Import Project="..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets')" />
 </Project>
