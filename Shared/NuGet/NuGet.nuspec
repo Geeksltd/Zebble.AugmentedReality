@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Zebble.Plugin.AugmentedReality</id>
-    <version>3.2.115</version>
-    <title>Augmented Reality for Zebble for Xamarin</title>
+    <version>3.2.116</version>
+    <title>Augmented Reality for Zebble (Xamarin)</title>
     <projectUrl>https://github.com/Geeksltd/AugmentedReality</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Geeksltd/AugmentedReality/master/Shared/Icon.png</iconUrl>
     <description>Shows a live feed from the camera plus point of interest objects in the specified Geo Locations.</description>
