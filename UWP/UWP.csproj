@@ -107,7 +107,7 @@
       <Version>9.0.1</Version>
     </PackageReference>
     <PackageReference Include="Zebble">
-      <Version>4.1.285</Version>
+      <Version>4.1.286</Version>
     </PackageReference>
     <PackageReference Include="Zebble.Plugin.CameraView">
       <Version>4.1.224</Version>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Zebble.Plugin.AugmentedReality</id>
-    <version>3.2.116</version>
+    <id>Zebble.AugmentedReality</id>
+    <version>3.2.119</version>
     <title>Augmented Reality for Zebble (Xamarin)</title>
     <projectUrl>https://github.com/Geeksltd/AugmentedReality</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Geeksltd/AugmentedReality/master/Shared/Icon.png</iconUrl>
@@ -10,8 +10,8 @@
     <authors>Mobile App Technologies Ltd</authors>
     <copyright>Copyright ©2017 Mobile App Technologies Ltd - All rights reserved.</copyright>
     <dependencies>
-      <dependency id="Zebble.Plugin.SmoothCompass" version="4.0.153" />
-      <dependency id="Zebble.Plugin.CameraView" version="4.1.225" />
+      <dependency id="Zebble.SmoothCompass" version="4.0.153" />
+      <dependency id="Zebble.CameraView" version="4.1.225" />
     </dependencies>
   </metadata>
   <files>
