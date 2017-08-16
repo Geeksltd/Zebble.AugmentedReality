@@ -40,17 +40,14 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="Zebble.Android">
-      <HintPath>..\packages\Zebble.4.1.289\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Zebble.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.4.1.290\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Zebble.CameraView.Android">
-      <HintPath>..\packages\Zebble.Plugin.CameraView.4.1.224\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Zebble.CameraView.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.CameraView.4.1.229\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Zebble.SmoothCompass.Android">
-      <HintPath>..\packages\Zebble.Plugin.SmoothCompass.4.0.153\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Zebble.SmoothCompass.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.SmoothCompass.4.0.157\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -107,13 +107,13 @@
       <Version>9.0.1</Version>
     </PackageReference>
     <PackageReference Include="Zebble">
-      <Version>4.1.289</Version>
+      <Version>4.1.290</Version>
     </PackageReference>
-    <PackageReference Include="Zebble.Plugin.CameraView">
-      <Version>4.1.224</Version>
+    <PackageReference Include="Zebble.CameraView">
+      <Version>4.1.229</Version>
     </PackageReference>
-    <PackageReference Include="Zebble.Plugin.SmoothCompass">
-      <Version>4.0.153</Version>
+    <PackageReference Include="Zebble.SmoothCompass">
+      <Version>4.0.157</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

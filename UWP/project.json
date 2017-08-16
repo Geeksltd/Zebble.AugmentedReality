@@ -1,26 +1,20 @@
 ﻿{
-    "dependencies": {
-        "Newtonsoft.Json": "9.0.1",
-        "Zebble": "4.1.289"
-    },
-    "frameworks": {
-        "uap10.0": {}
-    },
-    "runtimes": {
-        "win10-arm": {},
-        "win10-arm-aot": {},
-        "win10-x86": {},
-        "win10-x86-aot": {},
-        "win10-x64": {},
-        "win10-x64-aot": {}
-    }
+  "dependencies": {
+    "Newtonsoft.Json": "9.0.1",
+    "Zebble": "4.1.290",
+    "Zebble.CameraView": "4.1.229",
+    "Zebble.SmoothCompass": "4.0.157"
+  },
+  "frameworks": {
+    "uap10.0": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
 }
-
-
-
-
-
-
-
-
 
