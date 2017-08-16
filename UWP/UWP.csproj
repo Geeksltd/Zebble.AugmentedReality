@@ -110,10 +110,10 @@
       <Version>4.1.290</Version>
     </PackageReference>
     <PackageReference Include="Zebble.CameraView">
-      <Version>4.1.229</Version>
+      <Version>4.1.231</Version>
     </PackageReference>
     <PackageReference Include="Zebble.SmoothCompass">
-      <Version>4.0.157</Version>
+      <Version>4.0.158</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

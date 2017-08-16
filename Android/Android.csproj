@@ -16,7 +16,8 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
-    <NuGetPackageImportStamp></NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,10 +45,10 @@
       <HintPath>..\packages\Zebble.4.1.290\lib\MonoAndroid10\Zebble.Android.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.CameraView.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.CameraView.4.1.229\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
+      <HintPath>..\packages\Zebble.CameraView.4.1.231\lib\MonoAndroid10\Zebble.CameraView.Android.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.SmoothCompass.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.SmoothCompass.4.0.157\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>
+      <HintPath>..\packages\Zebble.SmoothCompass.4.0.158\lib\MonoAndroid10\Zebble.SmoothCompass.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
