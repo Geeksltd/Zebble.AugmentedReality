@@ -29,7 +29,7 @@
         public async Task Add(PointOfInterest poi)
         {
             PointsOfInterest.Add(poi);
-            if (IsAlreadyRendered()) await Show(poi);
+            if (IsRendered()) await Show(poi);
         }
 
         public async override Task OnInitializing()

@@ -11,7 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AugmentedReality.cs" />
     <None Include="$(MSBuildThisFileDirectory)NuGet\NuGet.nuspec" />
-    <Content Include="$(MSBuildThisFileDirectory)Icon.png" />
+    <None Include="$(MSBuildThisFileDirectory)Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)NuGet\%40CreateNuGet.bat" />
