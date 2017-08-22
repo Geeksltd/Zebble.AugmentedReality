@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Zebble.AugmentedReality</id>
-    <version>3.2.123</version>
+    <version>3.2.124</version>
     <title>Augmented Reality for Zebble (Xamarin)</title>
     <projectUrl>https://github.com/Geeksltd/AugmentedReality</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Geeksltd/AugmentedReality/master/Shared/Icon.png</iconUrl>
