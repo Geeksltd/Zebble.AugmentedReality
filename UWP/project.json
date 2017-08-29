@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
     "Newtonsoft.Json": "9.0.1",
-    "Zebble": "4.1.298",
+    "Zebble": "4.2.315",
     "Zebble.CameraView": "4.1.229",
     "Zebble.SmoothCompass": "4.0.157"
   },
@@ -17,5 +17,7 @@
     "win10-x64-aot": {}
   }
 }
+
+
 
 
