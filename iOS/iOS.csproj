@@ -22,6 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <DocumentationFile>..\lib\Zebble.AugmentedReality.iOS.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -37,13 +38,16 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Zebble.CameraView.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.CameraView.4.1.231\lib\Xamarin.iOS10\Zebble.CameraView.iOS.dll</HintPath>
+      <HintPath>..\packages\Zebble.CameraView.4.1.232\lib\Xamarin.iOS10\Zebble.CameraView.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.4.2.342\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+      <HintPath>..\packages\Zebble.4.3.100\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Zebble.Location.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.Location.1.0.104\lib\Xamarin.iOS10\Zebble.Location.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Zebble.SmoothCompass.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.SmoothCompass.4.0.158\lib\Xamarin.iOS10\Zebble.SmoothCompass.iOS.dll</HintPath>
+      <HintPath>..\packages\Zebble.SmoothCompass.4.0.159\lib\Xamarin.iOS10\Zebble.SmoothCompass.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

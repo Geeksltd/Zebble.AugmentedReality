@@ -2,8 +2,9 @@
   "dependencies": {
     "Newtonsoft.Json": "9.0.1",
     "Zebble": "4.2.342",
-    "Zebble.CameraView": "4.1.229",
-    "Zebble.SmoothCompass": "4.0.157"
+    "Zebble.CameraView": "4.1.232",
+    "Zebble.SmoothCompass": "4.0.159",
+    "Zebble.Location": "1.0.104"
   },
   "frameworks": {
     "uap10.0": {}

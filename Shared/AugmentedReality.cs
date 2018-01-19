@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Threading.Tasks;
     using Zebble.Services;
+    using Zebble.Device;
 
     public class AugmentedReality : Canvas
     {
@@ -47,7 +48,7 @@
             if (Math.Abs(CurrentValue - newHeading.SmoothValue) < 1) return;
 
             CurrentValue = newHeading.SmoothValue;
-            Device.UIThread.RunAction(PositionPointsOfInterest);
+            Thread.UI.RunAction(PositionPointsOfInterest);
         }
 
         async Task Show(PointOfInterest poi)
@@ -62,7 +63,7 @@
         {
             PixelsPerDegree = Root.ActualWidth / CameraViewFieldDegrees;
 
-            var position = await Device.Location.GetCurrentPosition();
+            var position = await Location.GetCurrentPosition();
             if (position != null)
             {
                 ObserverLocation = new GeoLocation(position.Latitude, position.Longitude);

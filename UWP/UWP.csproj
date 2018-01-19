@@ -39,13 +39,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x86\Debug\</OutputPath>
+    <OutputPath>..\lib\</OutputPath>
     <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <NoWarn>;2008;1998</NoWarn>
     <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>..\lib\Zebble.AugmentedReality.UWP.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -107,13 +108,16 @@
       <Version>9.0.1</Version>
     </PackageReference>
     <PackageReference Include="Zebble">
-      <Version>4.2.342</Version>
+      <Version>4.3.100</Version>
     </PackageReference>
     <PackageReference Include="Zebble.CameraView">
-      <Version>4.1.231</Version>
+      <Version>4.1.232</Version>
+    </PackageReference>
+    <PackageReference Include="Zebble.Location">
+      <Version>1.0.104</Version>
     </PackageReference>
     <PackageReference Include="Zebble.SmoothCompass">
-      <Version>4.0.158</Version>
+      <Version>4.0.159</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
