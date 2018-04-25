@@ -1,4 +1,4 @@
-[logo]: https://raw.githubusercontent.com/Geeksltd/Zebble.AugmentedReality/master/Shared/NuGet/Icon.png "Zebble.AugmentedReality"
+[logo]: https://raw.githubusercontent.com/Geeksltd/Zebble.AugmentedReality/master/Shared/Icon.png "Zebble.AugmentedReality"
 
 
 ## Zebble.AugmentedReality
