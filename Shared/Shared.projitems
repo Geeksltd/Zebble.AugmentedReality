@@ -14,6 +14,6 @@
     <None Include="$(MSBuildThisFileDirectory)Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)NuGet\%40CreateNuGet.bat" />
+    <None Include="$(MSBuildThisFileDirectory)NuGet\CreateNuGet.bat" />
   </ItemGroup>
 </Project>
