@@ -114,7 +114,7 @@
       <Version>9.0.1</Version>
     </PackageReference>
     <PackageReference Include="Zebble">
-      <Version>4.4.155</Version>
+      <Version>4.4.185</Version>
     </PackageReference>
     <PackageReference Include="Zebble.CameraView">
       <Version>4.1.232</Version>
