@@ -4,8 +4,8 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Zebble.Services;
     using Zebble.Device;
+    using Olive.GeoLocation;
 
     public class AugmentedReality : Canvas
     {
@@ -39,7 +39,7 @@
             await Add(CameraView = new CameraView());
 
             Compass = await SmoothCompass.Create();
-            Compass.Changed.Handle(h => Compass_Changed(h));
+            Compass.Changed.Handle(Compass_Changed);
         }
 
         void Compass_Changed(SmoothCompass.Heading newHeading)
