@@ -7,7 +7,7 @@
     <RootNamespace>Zebble</RootNamespace>
     <PackageId>Zebble.AugmentedReality</PackageId>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <Version>3.2.131</Version>
+    <Version>3.2.132.0</Version>
     <PackOnBuild>true</PackOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>default</LangVersion>
@@ -71,8 +71,8 @@
     <PackageReference Include="Zebble.SmoothCompass" Version="4.0.164" />
   </ItemGroup>
   <ItemGroup>
-	<Folder Include="Android\" />
-	<Folder Include="iOS\" />
-	<Folder Include="UWP\" />
+    <Folder Include="Android\" />
+    <Folder Include="iOS\" />
+    <Folder Include="UWP\" />
   </ItemGroup>
 </Project>
