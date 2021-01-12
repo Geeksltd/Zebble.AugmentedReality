@@ -7,7 +7,7 @@
     <RootNamespace>Zebble</RootNamespace>
     <PackageId>Zebble.AugmentedReality</PackageId>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <Version>3.2.133.0</Version>
+    <Version>3.2.134.0</Version>
     <PackOnBuild>true</PackOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>default</LangVersion>
@@ -66,9 +66,9 @@
     <None Remove="Zebble-LicenseAgreement.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Zebble.CameraView" Version="4.1.241" />
-    <PackageReference Include="Zebble.Location" Version="1.0.118" />
-    <PackageReference Include="Zebble.SmoothCompass" Version="4.0.165" />
+    <PackageReference Include="Zebble.CameraView" Version="4.1.242" />
+    <PackageReference Include="Zebble.Location" Version="1.0.120" />
+    <PackageReference Include="Zebble.SmoothCompass" Version="4.0.167" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Android\" />
